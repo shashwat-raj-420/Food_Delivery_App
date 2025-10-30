@@ -64,7 +64,7 @@ class _FoodPageState extends State<FoodPage> {
 
                       // food price
                       Text(
-                        '\$${widget.food.price}',
+                        '₹${widget.food.price}',
                         style: TextStyle(
                           fontSize: 16,
                           color: Theme.of(context).colorScheme.inversePrimary,
@@ -135,7 +135,7 @@ class _FoodPageState extends State<FoodPage> {
                                 ),
                               ),
                               subtitle: Text(
-                                '\$${addon.price}',
+                                '₹${addon.price}',
                                 style: TextStyle(
                                   color: Theme.of(context).colorScheme.primary,
                                 ),

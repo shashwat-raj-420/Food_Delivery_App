@@ -25,7 +25,7 @@ class MyDescriptionBox extends StatelessWidget {
           // delivery fee
           Column(
             children: [
-              Text('\$0.99', style: myPrimaryTextStyle),
+              Text('₹100', style: myPrimaryTextStyle),
               Text('Delivery fee', style: mySecondaryTextStyle),
             ],
           ),

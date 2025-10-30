@@ -13,7 +13,7 @@ class Restaurant extends ChangeNotifier {
       description:
           "cheese burger with a jucy patty with melted chedder on top with lettuce and tomato",
       imagePath: "lib/images_food_app/burger/burger_1.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.burgers,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -26,7 +26,7 @@ class Restaurant extends ChangeNotifier {
       description:
           "cheese burger with a jucy patty with melted chedder on top with lettuce and tomato",
       imagePath: "lib/images_food_app/burger/burger_2.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.burgers,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -39,7 +39,7 @@ class Restaurant extends ChangeNotifier {
       description:
           "cheese burger with a jucy patty with melted chedder on top with lettuce and tomato",
       imagePath: "lib/images_food_app/burger/burger_3.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.burgers,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -52,7 +52,7 @@ class Restaurant extends ChangeNotifier {
       description:
           "cheese burger with a jucy patty with melted chedder on top with lettuce and tomato",
       imagePath: "lib/images_food_app/burger/burger_4.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.burgers,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -67,7 +67,7 @@ class Restaurant extends ChangeNotifier {
       description:
           "Fresh salad with freshly harvested veggis which are locally sorced",
       imagePath: "lib/images_food_app/salad/salad_1.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.salads,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -81,7 +81,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic side",
       description: "side for any thing perfect for every occasion",
       imagePath: "lib/images_food_app/side/side_1.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.sides,
       availableAddons: [
         Addon(name: "Extra cheese", price: 0.99),
@@ -95,7 +95,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic dessert",
       description: "melts in the mouth from just the slightest taste",
       imagePath: "lib/images_food_app/dessert/dessert_1.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.desserts,
       availableAddons: [
         Addon(name: "Extra sweet", price: 0.99),
@@ -108,7 +108,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic drink 1",
       description: "refressing and cool helps you calm down",
       imagePath: "lib/images_food_app/drink/drink_1.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.drinks,
       availableAddons: [
         Addon(name: "Extra ice", price: 0.99),
@@ -119,7 +119,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic drink 2",
       description: "refressing and cool helps you calm down",
       imagePath: "lib/images_food_app/drink/drink_2.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.drinks,
       availableAddons: [
         Addon(name: "Extra ice", price: 0.99),
@@ -130,7 +130,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic drink 3",
       description: "refressing and cool helps you calm down",
       imagePath: "lib/images_food_app/drink/drink_3.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.drinks,
       availableAddons: [
         Addon(name: "Extra ice", price: 0.99),
@@ -141,7 +141,7 @@ class Restaurant extends ChangeNotifier {
       name: "classic drink 4",
       description: "refressing and cool helps you calm down",
       imagePath: "lib/images_food_app/drink/drink_4.png",
-      price: 0.99,
+      price: 100,
       category: FoodCategory.drinks,
       availableAddons: [
         Addon(name: "Extra ice", price: 0.99),
@@ -287,7 +287,7 @@ class Restaurant extends ChangeNotifier {
 
   //  format double value into money
   String _formatPrice(double price) {
-    return "\$${price.toStringAsFixed(2)}";
+    return "₹${price.toStringAsFixed(2)}";
   }
 
   //  format list of addons into a string summary
