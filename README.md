@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Food_Delivery_App
 
 A Flutter + Firebase based food delivery app for restaurants — allowing customers to browse menu, place orders, and restaurants to manage orders & items through a mobile app.
@@ -160,3 +161,7 @@ Please follow consistent coding style and add comments where necessary.
 * Push notifications for order updates
 
 
+=======
+# for_git_connect_code
+# for_git_connect_code
+>>>>>>> 0117a4c (first commit)
