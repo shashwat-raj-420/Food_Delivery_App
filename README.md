@@ -47,37 +47,71 @@ It aims to provide a simple, intuitive, and responsive mobile-first solution for
 ![cart_dark](image-8.png)
 ![receipt_dark](image-9.png)
 
+No problem — GitHub Markdown **doesn’t support resizing images directly**, but we *can* resize them using **HTML `<img>` tags**.
+
+Here is the **compact, resized version** of the entire Screenshots section.
+All images are scaled to **250px width** so they look clean and uniform.
+
+You can replace your current screenshot section with this:
+
+---
+
 ## 📸 Screenshots
+
 ### 🔐 Login
-![login page](image.png)
+
+<img src="images_readme/image.png" width="250"/>
+
+---
 
 ### 🍽️ Menu (Light Mode)
-![Menu_1](image-3.png)
 
-![Menu_2](image-4.png)
+<table>
+<tr>
+<td><img src="images_readme/image-3.png" width="250"/></td>
+<td><img src="images_readme/image-4.png" width="250"/></td>
+</tr>
+</table>
 
-	
+---
+
 ### 🧾 Orders & Cart (Light Mode)
-![Order_screen](image-10.png)
 
-![Cart](image-11.png)
+<table>
+<tr>
+<td><img src="images_readme/image-10.png" width="250"/></td>
+<td><img src="images_readme/image-11.png" width="250"/></td>
+<td><img src="images_readme/image-12.png" width="250"/></td>
+</tr>
+</table>
 
-![receipt](image-12.png)
+---
 
-	
-	
 ### 🌙 Menu (Dark Mode)
-![Menu_1_dark](image-5.png)
 
-![Menu_2_dark](image-6.png)
+<table>
+<tr>
+<td><img src="images_readme/image-5.png" width="250"/></td>
+<td><img src="images_readme/image-6.png" width="250"/></td>
+</tr>
+</table>
 
-	
+---
+
 ### 🌙 Orders & Cart (Dark Mode)
-![order_screen_dark](image-7.png)
 
-![cart_dark](image-8.png)
+<table>
+<tr>
+<td><img src="images_readme/image-7.png" width="250"/></td>
+<td><img src="images_readme/image-8.png" width="250"/></td>
+<td><img src="images_readme/image-9.png" width="250"/></td>
+</tr>
+</table>
 
-![receipt_dark](image-9.png)
+---
+
+If you want them **even smaller** (200px / 150px) or **auto-grid layout**, tell me and I’ll format it perfectly!
+
 
 	
 	
