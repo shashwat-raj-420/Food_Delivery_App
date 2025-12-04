@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Food_Delivery_App
 
 A Flutter + Firebase based food delivery app for restaurants — allowing customers to browse menu, place orders, and restaurants to manage orders & items through a mobile app.
@@ -32,27 +31,6 @@ It aims to provide a simple, intuitive, and responsive mobile-first solution for
 * Admin/Restaurant side: manage products, manage orders
 * Push ordering / real-time updates (depending on Firebase configuration)
 * Clean UI built in Flutter for both Android and iOS
-
-
-![login page](image.png)
-![Menu_1](image-3.png)
-![Menu_2](image-4.png)
-![Order_screen](image-10.png)
-![Cart](image-11.png)
-![receipt](image-12.png)
-
-![Menu_1_dark](image-5.png)
-![Menu_2_dark](image-6.png)
-![order_screen_dark](image-7.png)
-![cart_dark](image-8.png)
-![receipt_dark](image-9.png)
-
-No problem — GitHub Markdown **doesn’t support resizing images directly**, but we *can* resize them using **HTML `<img>` tags**.
-
-Here is the **compact, resized version** of the entire Screenshots section.
-All images are scaled to **250px width** so they look clean and uniform.
-
-You can replace your current screenshot section with this:
 
 ---
 
