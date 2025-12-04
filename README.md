@@ -173,7 +173,4 @@ Please follow consistent coding style and add comments where necessary.
 * Push notifications for order updates
 
 
-=======
-# for_git_connect_code
-# for_git_connect_code
->>>>>>> 0117a4c (first commit)
+
