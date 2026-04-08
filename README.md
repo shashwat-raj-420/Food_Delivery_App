@@ -173,4 +173,8 @@ Please follow consistent coding style and add comments where necessary.
 * Push notifications for order updates
 
 
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 4642387 (corrected readme)
